@@ -1,34 +1,22 @@
 # App7924 Technology Wiki
 
-This wiki is the base howto documents and configs associated with our technology stack.  
+This wiki is the base howto documents and configs associated with our technology stack.
 
-### [Ansible](pages/kubernetes/README.md)
-### [Azure](pages/kubernetes/README.md)
-### [Bash](pages/kubernetes/README.md)
-### [Cisco](pages/kubernetes/README.md)
-### [Docker](pages/kubernetes/README.md)
-### [Golang](pages/kubernetes/README.md)
-### [Hyper-V](pages/kubernetes/README.md)
-### [Javascript](pages/kubernetes/README.md)
-### [[Kubernetes](pages/kubernetes/README.md)
-### [Packer](pages/kubernetes/README.md)
-### [Postgres](pages/kubernetes/README.md)
-### [Powershell](pages/kubernetes/README.md)
-### [Redis](pages/kubernetes/README.md)
-### [Terraform](pages/kubernetes/README.md)
-### [Ubuntu](pages/kubernetes/README.md)
-### [Vagrant](pages/kubernetes/README.md)
-### [Vim](pages/kubernetes/README.md)
-### [VScode](pages/kubernetes/README.md)
+This basic infrastructure will be used to build, test, deploy, our overall technology stacks. 
 
+-- Insert Image of infrastructure
 
+### [Hyper-V](pages/hyperv/README.md)
+* [Overview](01.0.md)
+* [Installation](01.1.md)
+### [Ubuntu](pages/ubuntu/README.md)
+### [Bash](pages/bash/README.md)
+### [Git](pages/git/README.md)
+### [Golang](pages/golang/README.md)
+### [Postgres](pages/postgres/README.md)
+### [Ansible](pages/ansible/README.md)
+### [Vagrant](pages/vagrante/README.md)
 
-* [Go Environment Configuration](01.0.md)
-	* [Installation](01.1.md)
-	* [$GOPATH and workspace](01.2.md)
-	* [Go commands](01.3.md)
-	* [Go development tools](01.4.md)
-	* [Summary](01.5.md)
 * [Go basic knowledge](02.0.md)
 	* [Hello, Go](02.1.md)
 	* [Go foundation](02.2.md)
