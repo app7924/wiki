@@ -1,0 +1,83 @@
+[
+    {
+        "Name":  "External",
+        "Type":  3,
+        "VLAN":  0,
+        "BindingAdapterName":  "Ethernet",
+        "BindingAdapterMac":  "",
+        "NatSubnet":  "",
+        "NatGatewayAddress":  "",
+        "Adapters":  [
+                         {
+                             "Name":  "Cluster",
+                             "MACAddress":  "00155D010701",
+                             "Vlan":  0
+                         },
+                         {
+                             "Name":  "Management",
+                             "MACAddress":  "00155D010702",
+                             "Vlan":  0
+                         },
+                         {
+                             "Name":  "SMB",
+                             "MACAddress":  "00155D010703",
+                             "Vlan":  0
+                         },
+                         {
+                             "Name":  "LM",
+                             "MACAddress":  "00155D010704",
+                             "Vlan":  0
+                         }
+                     ]
+    },
+    {
+        "Name":  "TestLab Private Vlan",
+        "Type":  1,
+        "VLAN":  2,
+        "BindingAdapterName":  "",
+        "BindingAdapterMac":  "",
+        "NatSubnet":  "",
+        "NatGatewayAddress":  "",
+        "Adapters":  null
+    },
+    {
+        "Name":  "TestLab Private",
+        "Type":  1,
+        "VLAN":  0,
+        "BindingAdapterName":  "",
+        "BindingAdapterMac":  "",
+        "NatSubnet":  "",
+        "NatGatewayAddress":  "",
+        "Adapters":  null
+    },
+    {
+        "Name":  "TestLab Internal Vlan",
+        "Type":  2,
+        "VLAN":  3,
+        "BindingAdapterName":  "",
+        "BindingAdapterMac":  "",
+        "NatSubnet":  "",
+        "NatGatewayAddress":  "",
+        "Adapters":  null
+    },
+    {
+        "Name":  "TestLab Internal",
+        "Type":  2,
+        "VLAN":  0,
+        "BindingAdapterName":  "",
+        "BindingAdapterMac":  "",
+        "NatSubnet":  "",
+        "NatGatewayAddress":  "",
+        "Adapters":  null
+    },
+    {
+        "Name":  "TestLab NAT",
+        "Type":  4,
+        "VLAN":  0,
+        "BindingAdapterName":  "",
+        "BindingAdapterMac":  "",
+        "NatSubnet":  "192.168.22.0/24",
+        "NatGatewayAddress":  "192.168.22.1",
+        "Adapters":  null
+    }
+]
